@@ -33,7 +33,7 @@
 
                     </div>
                 </div>
-            </doiv>
+                </doiv>
         </div>
 
 
@@ -51,7 +51,8 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-success">Add Credential</button>
+                        <button type="button" class="btn btn-success" onclick="redirectToFinal()">Add
+                            Credential</button>
                     </div>
                 </div>
             </div>
@@ -75,6 +76,12 @@
         <script>
             function redirectToIndex() {
                 window.location.href = 'home.html';
+            }
+            function redirectToFinal() {
+                var sinText = document.getElementById("sinModalLabel").innerText;
+                var sinText2 = document.getElementById("value").innerText;
+                var url = "final.html?Name=" + encodeURIComponent(sinText) + "&Value=" + encodeURIComponent(sinText2);
+                window.location.href = url;
             }
         </script>
 
