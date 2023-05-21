@@ -1,3 +1,27 @@
+// Get the stored token from sessionStorage or localStorage
+const token = sessionStorage.getItem('token');
+
+// Check if the token exists
+if (token) {
+    
+} else {
+    // Redirect the user to the login page if the token is not found
+    window.location.href = 'index.html';
+}
+
+// Logout button event listener
+const logoutButton = document.getElementById('logoutButton');
+logoutButton.addEventListener('click', function () {
+    // Remove the token from sessionStorage or localStorage
+    sessionStorage.removeItem('token');
+    // localStorage.removeItem('token');
+
+    // Redirect the user to the login page
+    window.location.href = 'index.html';
+});
+
+
+
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const dataType = urlParams.get('Credential');
@@ -124,6 +148,3 @@ function openModal(dataType, sinData, providerName) {
     var modal = new bootstrap.Modal(document.getElementById("sinModal"));
     modal.show();
 }
-
-
-
