@@ -1,0 +1,34 @@
+
+body {
+    background-color: aliceblue;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.form-container {
+    width: 500px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    margin-top: 5%;
+}
+
+.parent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-custom {
+    background-color: #1e2898;
+    color: #f8f9fa;
+}

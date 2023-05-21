@@ -1,0 +1,47 @@
+body {
+    background-color: aliceblues;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.partner-logo {
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+
+.partner-name {
+    margin-bottom: 30px;
+}
+
+.parent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-outline input:focus {
+    border-color: blue;
+    /* Change the color to your desired color */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    /* Add a box shadow for visual effect */
+}
+
+.form-outline input:focus,
+    .form-check-input:focus {
+        border-color: blue; /* Change the color to your desired color */
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add a box shadow for visual effect */
+    }
