@@ -141,7 +141,7 @@ function openModal(dataType, sinData, providerName) {
     // Update the modal content with the SIN data
     var modalBody = document.getElementById("sinText");
     var modalBody2 = document.getElementById("sinText2");
-    modalBody.innerHTML = `Your ${dataType} is : <b>${sinData}</b>`;
+    modalBody.innerHTML = `Your ${dataType} is : <b id="value">${sinData}</b>`;
     modalBody2.innerHTML = `From <b>${providerName}</b>.`;
 
     // Show the modal
