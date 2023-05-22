@@ -148,3 +148,6 @@ function openModal(dataType, sinData, providerName) {
     var modal = new bootstrap.Modal(document.getElementById("sinModal"));
     modal.show();
 }
+
+
+

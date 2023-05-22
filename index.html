@@ -192,7 +192,7 @@
     </div>
 
     <script>
-        
+
         // Get the stored token from sessionStorage or localStorage
         const token = sessionStorage.getItem('token');
 
@@ -205,8 +205,8 @@
             // Redirect the user to the login page if the token is not found
             
         }
-        
-        function redirectToAuthentication(imageUrl, partnerName) {
+
+        function redirectToAuthentication(imageUrl, partnerName = "") {
             const data = {
                 imageUrl: imageUrl,
                 partnerName: partnerName
@@ -219,7 +219,7 @@
             sessionStorage.setItem('authData', jsonData);
             // localStorage.setItem('authData', jsonData);
 
-            window.location.href = 'authentication.html';
+            window.location.href = 'Authentication.html';
         }
     </script>
 
