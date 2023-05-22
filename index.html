@@ -192,6 +192,20 @@
     </div>
 
     <script>
+        
+        // Get the stored token from sessionStorage or localStorage
+        const token = sessionStorage.getItem('token');
+
+        // Check if the token exists
+        if (token) {
+
+            window.location.href = 'home.html';
+
+        } else {
+            // Redirect the user to the login page if the token is not found
+            
+        }
+        
         function redirectToAuthentication(imageUrl, partnerName) {
             const data = {
                 imageUrl: imageUrl,
