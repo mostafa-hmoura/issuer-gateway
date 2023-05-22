@@ -90,7 +90,7 @@ if (token) {
 
         // Create the loading text
         var loadingText = document.createElement('span');
-        loadingText.textContent = 'Loading...';
+        loadingText.textContent = '';
 
         // Append the loading text to the spinner
         spinner.appendChild(loadingText);
