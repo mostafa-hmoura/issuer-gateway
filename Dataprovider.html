@@ -80,7 +80,8 @@
             function redirectToFinal() {
                 var sinText = document.getElementById("sinModalLabel").innerText;
                 var sinText2 = document.getElementById("value").innerText;
-                var url = "final.html?Name=" + encodeURIComponent(sinText.trim()) + "&Value=" + encodeURIComponent(sinText2.trim());
+                var sinText3 = document.getElementById("value2").innerText;
+                var url = "final.html?Name=" + encodeURIComponent(sinText.trim()) + "&Value=" + encodeURIComponent(sinText2.trim())+ "&IssuerName=" + encodeURIComponent(sinText3.trim());
                 window.location.href = url;
             }
         </script>
