@@ -19,6 +19,9 @@ if (token) {
     // Get the image URL and partner name from the data object
     const imageUrl = data.imageUrl;
     const partnerName = data.partnerName;
+    
+    var favicon = document.getElementById('favicon');
+    favicon.href = imageUrl;
 
     // Set the image source and partner name
     const partnerImage = document.getElementById('partnerImage');
