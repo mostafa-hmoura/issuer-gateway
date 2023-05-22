@@ -142,7 +142,7 @@ function openModal(dataType, sinData, providerName) {
     var modalBody = document.getElementById("sinText");
     var modalBody2 = document.getElementById("sinText2");
     modalBody.innerHTML = `Your ${dataType} is : <b id="value">${sinData}</b>`;
-    modalBody2.innerHTML = `From <b>${providerName}</b>.`;
+    modalBody2.innerHTML = `From <b id="value2">${providerName}</b>.`;
 
     // Show the modal
     var modal = new bootstrap.Modal(document.getElementById("sinModal"));
