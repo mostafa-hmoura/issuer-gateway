@@ -35,13 +35,13 @@ var providers = {
     "Social Insurance Number (SIN)": [
         { name: "CIBC Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/cibc.png", sin: 123456789 },
         { name: "Royal Bank of Canada", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/rbc.png", sin: 123456 },
-        { name: "Ministry of Transportation", image: "https://tmpfiles.org/dl/1442601/mts.png" },
+        { name: "Ministry of Transportation", image: "https://res.cloudinary.com/dden9gxv7/image/upload/v1684785624/mts_bbtg9b.png" },
         { name: "Bell Canada", image: "https://logos-download.com/wp-content/uploads/2016/04/Bell_logo-700x420.png", sin: 123456 },
         { name: "Affinity Credit Union", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/affinity.png", sin: 123456 },
         { name: "Tangerine Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/tang.png", sin: 123456 }
     ],
     "Date of Birth": [
-        { name: "Ministry of Transportation", image: "https://tmpfiles.org/dl/1442601/mts.png", sin: "18/07/1998" },
+        { name: "Ministry of Transportation", image: "https://res.cloudinary.com/dden9gxv7/image/upload/v1684785624/mts_bbtg9b.png", sin: "18/07/1998" },
         { name: "Bell Canada", image: "https://logos-download.com/wp-content/uploads/2016/04/Bell_logo-700x420.png", sin: "18/07/1998" },
         { name: "CIBC Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/cibc.png", sin: "18/07/1998" },
         { name: "Royal Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/rbc.png", sin: "18/07/1998" },
@@ -64,28 +64,28 @@ var providers = {
         { name: "Caisse Alliance", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/cais.png", sin: 300 },
     ],
     "Phone Number": [
-        { name: "Ministry of Transportation", image: "https://tmpfiles.org/dl/1442601/mts.png", sin: "+1611010114" },
+        { name: "Ministry of Transportation", image: "https://res.cloudinary.com/dden9gxv7/image/upload/v1684785624/mts_bbtg9b.png", sin: "+1611010114" },
         { name: "Bell Canada", image: "https://logos-download.com/wp-content/uploads/2016/04/Bell_logo-700x420.png", sin: "18/07/1998" },
         { name: "CIBC Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/cibc.png", sin: "18/07/1998" },
         { name: "Royal Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/rbc.png", sin: "18/07/1998" },
         { name: "Affinity Credit Union", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/affinity.png", sin: "18/07/1998" },
     ],
     "Address": [
-        { name: "Ministry of Transportation", image: "https://tmpfiles.org/dl/1442601/mts.png", sin: "1165 Embro St, Beachville" },
+        { name: "Ministry of Transportation", image: "https://res.cloudinary.com/dden9gxv7/image/upload/v1684785624/mts_bbtg9b.png", sin: "1165 Embro St, Beachville" },
         { name: "Bell Canada", image: "https://logos-download.com/wp-content/uploads/2016/04/Bell_logo-700x420.png", sin: "18/07/1998" },
         { name: "CIBC Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/cibc.png", sin: "18/07/1998" },
         { name: "Royal Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/rbc.png", sin: "18/07/1998" },
         { name: "Affinity Credit Union", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/affinity.png", sin: "18/07/1998" },
     ],
     "Province": [
-        { name: "Ministry of Transportation", image: "https://tmpfiles.org/dl/1442601/mts.png", sin: "Ontario" },
+        { name: "Ministry of Transportation", image: "https://res.cloudinary.com/dden9gxv7/image/upload/v1684785624/mts_bbtg9b.png", sin: "Ontario" },
         { name: "Bell Canada", image: "https://logos-download.com/wp-content/uploads/2016/04/Bell_logo-700x420.png", sin: "18/07/1998" },
         { name: "CIBC Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/cibc.png", sin: "18/07/1998" },
         { name: "Royal Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/rbc.png", sin: "18/07/1998" },
         { name: "Affinity Credit Union", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/affinity.png", sin: "18/07/1998" },
     ],
     "Country": [
-        { name: "Ministry of Transportation", image: "https://tmpfiles.org/dl/1442601/mts.png", sin: "CANADA" },
+        { name: "Ministry of Transportation", image: "https://res.cloudinary.com/dden9gxv7/image/upload/v1684785624/mts_bbtg9b.png", sin: "CANADA" },
         { name: "Bell Canada", image: "https://logos-download.com/wp-content/uploads/2016/04/Bell_logo-700x420.png", sin: "18/07/1998" },
         { name: "CIBC Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/cibc.png", sin: "18/07/1998" },
         { name: "Royal Bank", image: "https://content-gc.signin.interac-id.ca/cbs/images/en/rbc.png", sin: "18/07/1998" },
