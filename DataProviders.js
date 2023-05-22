@@ -119,7 +119,7 @@ selectedProviders.forEach(function (provider) {
         <div class="card h-100">
             <img src="${provider.image}" class="card-img-top p-3" alt="...">
             <div class="card-body">
-                <h5 class="card-title">${provider.name}</h5>
+                <h6 class="card-title">${provider.name}</h6>
                 <p class="card-text"></p>
                 <button onclick="openModal('${dataType}', '${providers[`${dataType}`][0].sin}','${provider.name}')" class="btn btn-custom">Pull your ${dataType}</button>
             </div>
