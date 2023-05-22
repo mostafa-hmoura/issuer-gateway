@@ -1,5 +1,7 @@
 body {
-    background-color: aliceblues;
+    background-color: aliceblue;
+    padding: 20px;
+    height: 100%;
 }
 
 .container {
@@ -9,14 +11,6 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-color: aliceblue;
-}
-
-.form-container {
-    width: 400px;
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .partner-logo {
