@@ -28,6 +28,14 @@
 </head>
 
 <body>
+    <script>
+        var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        
+        if (isSafari) {
+            // If the user is using Safari, block them or redirect them
+            window.location.href = 'https://www.example.com/safari_blocked.html'; // Replace with the URL of the page to block Safari users
+        }
+    </script>
     <div class="container">
         <div class="form-container">
             <nav class="navbar p-3">
